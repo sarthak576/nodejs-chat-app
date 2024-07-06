@@ -1,0 +1,7 @@
+POST  http://localhost:3001/authenticate 
+Content-Type: application/json
+
+{ "username":"ravaan"} 
+# error tha bro '{"key":"vlaue"}' pairs mein  
+# SynatxError: Expected property name or '}' in JSON at position 2 (line 1 column 3)
+    # at JSON.parse (<anonymous>)
